@@ -23,28 +23,30 @@ public class SingleLinkedList {
         Node node = new Node();
         node.value = nodeValue;
 
-        if(head == null){
+        if(head == null){                //O(1)
             singleLinkedList(nodeValue);
             return;
         }
-        else if(location == 0){
+        else if(location == 0){           //O(1)
             node.next = head;
             head = node;
         }
-        else if(location >= size){
+        else if(location >= size){        //O(1)
             node.next = null;
             tail.next = node;
             tail = node;
-        }else {
+        }else {                           //O(1)
             Node tempNode = head;
             int ind = 0;
-            while(ind<location-1){
+            while(ind<location-1){        //O(n)
               tempNode = tempNode.next;
               ind++;
             }
-            
-            Node nexNode = tempNode.next;
+
+            Node nexNode = tempNode.next; //O(1)
             tempNode.next = node;
+            node.next = nexNode;
         }
+        size++;
     }
 }
