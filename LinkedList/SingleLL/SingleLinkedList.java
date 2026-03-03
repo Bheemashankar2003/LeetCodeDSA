@@ -35,6 +35,16 @@ public class SingleLinkedList {
             node.next = null;
             tail.next = node;
             tail = node;
+        }else {
+            Node tempNode = head;
+            int ind = 0;
+            while(ind<location-1){
+              tempNode = tempNode.next;
+              ind++;
+            }
+            
+            Node nexNode = tempNode.next;
+            tempNode.next = node;
         }
     }
 }

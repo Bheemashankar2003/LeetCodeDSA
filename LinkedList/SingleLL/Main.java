@@ -8,6 +8,7 @@ public class Main {
         s.singleLinkedList(10);
         System.out.println(s.head.value);
 
-        
+        s.insertNoad(20, 2);
+        System.out.println(s.size);
     }
 }
