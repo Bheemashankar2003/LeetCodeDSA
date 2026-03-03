@@ -8,6 +8,7 @@ public class Main {
         s.singleLinkedList(10);
         System.out.println(s.head.value);
 
+        
         //inserting logic 
         s.insertNoad(100, 1);
         s.insertNoad(200, 2);

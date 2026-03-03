@@ -17,7 +17,7 @@ public class SingleLinkedList {
         return head;
     }
     
-    //forinserting in middle
+    //for inserting in middle
     public void insertNoad(int nodeValue, int location){
 
         Node node = new Node();
