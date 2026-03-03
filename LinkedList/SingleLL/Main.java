@@ -7,5 +7,7 @@ public class Main {
         SingleLinkedList s = new SingleLinkedList();
         s.singleLinkedList(10);
         System.out.println(s.head.value);
+
+        
     }
 }

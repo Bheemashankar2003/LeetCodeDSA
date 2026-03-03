@@ -16,4 +16,25 @@ public class SingleLinkedList {
         size = 1;
         return head;
     }
+    
+    //forinserting in middle
+    public void insertNoad(int nodeValue, int location){
+
+        Node node = new Node();
+        node.value = nodeValue;
+
+        if(head == null){
+            singleLinkedList(nodeValue);
+            return;
+        }
+        else if(location == 0){
+            node.next = head;
+            head = node;
+        }
+        else if(location >= size){
+            node.next = null;
+            tail.next = node;
+            tail = node;
+        }
+    }
 }
