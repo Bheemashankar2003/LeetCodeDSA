@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.SingleLL;
 
 public class SingleLinkedList {
     
@@ -6,7 +6,7 @@ public class SingleLinkedList {
     Node tail;
     int size;
 
-    public Node SingleLinkedList(int valueToAssign){
+    public Node singleLinkedList(int valueToAssign){
 
         Node node = new Node();
         node.value = valueToAssign;
