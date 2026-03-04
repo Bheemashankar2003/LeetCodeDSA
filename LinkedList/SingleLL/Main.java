@@ -8,7 +8,7 @@ public class Main {
         s.singleLinkedList(10);
         System.out.println(s.head.value);
 
-        
+
         //inserting logic 
         s.insertNoad(100, 1);
         s.insertNoad(200, 2);
@@ -17,5 +17,8 @@ public class Main {
         System.out.println(s.head.next.value);
         System.out.println(s.head.next.next.value);
         System.out.println(s.head.next.next.next.value);
+
+        //traversal
+        s.traverseSingleLinkedList();
     }
 }

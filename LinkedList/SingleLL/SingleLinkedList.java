@@ -49,4 +49,18 @@ public class SingleLinkedList {
         }
         size++;
     }
+
+    //traversal 
+    public void traverseSingleLinkedList(){
+
+        Node tempNode = head;
+
+        for(int i = 0;i<size;i++){
+            System.out.println(tempNode.value);
+            if(i !=size-1)
+                System.out.print("--->");
+            tempNode = tempNode.next;
+        }
+        //finally time complexity is: O(n) and SC: O(1)
+    }
 }
