@@ -61,6 +61,7 @@ public class SingleLinkedList {
                 System.out.print("--->");
             tempNode = tempNode.next;
         }
+        
         //finally time complexity is: O(n) and SC: O(1)
     }
 }
