@@ -8,9 +8,8 @@ public class TwoSum {
         int target = 9;
     }
 
-    public static int[] merge(int [] arr, int target){
-
-        return 
+    public static void merge(int [] arr, int target){
+        
     }
 
 }
