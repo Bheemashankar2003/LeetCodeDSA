@@ -1,4 +1,4 @@
-package LinkedList.SingleLL;
+package LinkedList.SingleLL.Insert;
 
 public class SingleLinkedList {
     
