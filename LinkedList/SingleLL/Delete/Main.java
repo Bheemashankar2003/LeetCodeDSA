@@ -23,6 +23,9 @@ public class Main {
         s.deleteSingleLL(1); 
         s.traverseSingleLinkedList();
         s.deleteSingleLL(2);
+
+        s.deleteSingleLL();
+        // s.traverseSingleLinkedList();
         
     }
 }

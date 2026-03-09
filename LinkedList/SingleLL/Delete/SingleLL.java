@@ -100,4 +100,10 @@ public class SingleLL {
             size--;
         }
     }
+
+    public void deleteSingleLL(){
+        head = null;
+        tail = null;
+        System.out.println("deleted entire singlelinkedlist");
+    }
 }
